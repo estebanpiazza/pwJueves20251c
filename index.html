@@ -7,18 +7,65 @@
     <title>La mejor web del mundo</title>
     <style>*{border:1px solid red;}</style>
 </head>
+<style>
+    li{display:inline}
+</style>
 <body>
 <!-- HTML parte 1: <html>, <head>, <body>, <title>, <meta>, <link>, <script>, <div>, <span>, <header>, <footer>, <main>, <section>, <article>, <nav>, <aside>, <h1>, <h2>, <h3>, <h4>, <h5>, <h6> -->
 <header>
-    <nav></nav>    
+
+    <ul type="none">
+        <li>    <img src="http://placehold.co/100" alt=""></li>
+        <a href=""><li>Home</li></a>
+        <a href=""><li>Nosotros</li></a>
+        <a href=""><li>Contacto</li></a>
+        <a href=""><li>Servicios</li></a>
+    </ul>
 
 </header>
+
+<!-- 
+HTML parte 2 / manejo de DOM / <ul>, <ol>, <li>, <a>, <table>, <tr>, <td>, <th>, <form>, <input>, <label>, <textarea>, <button>, <select>, <option>, getElementById, getElementsByClassName, querySelector, querySelectorAll, createElement, appendChild, removeChild, setAttribute, removeAttribute, addEventListener, 
+-->
+
+<ol type="i" start="5"> <!-- lista ordenada Con criterio -->
+    <li>Elemento</li>
+    <li>Elemento</li>
+    <li>Elemento</li>
+    <li>Elemento</li>
+    <li>Elemento</li>
+</ol>
+
+<ul type="circle"><!-- lista desordenada Sin criterio-->
+
+    <li>Elemento</li>
+    <li>Elemento</li>
+    <li>Elemento</li>
+    <li>Elemento</li> 
+    <li>Elemento</li>
+    </ul>   
 <h1>
+    <a href="#final">ir a la seccion final</a>
     <h1>La web de Steve</h1>
+
+    
+    <a href="http://instagram.com/estebanpiazza">
     <img src="./img/foto-del-profesor-mas-fachero.jpg" alt="Foto de Steve" width="200px">
+</a>
+    
+    
     <img src="./img/foto-del-profesor-mas-fachero.jpg" alt="Foto de Steve" width="200px">
+    <img src="https://placehold.co/200x200/F00/00F" alt="">
     <h2>Mas chicos</h2>
     <h6>El mas chico</h6>
+    <a href="http://google.com" target="_blank">
+        Hipervinculo externo
+    </a>
+
+    <a href="./index2.html">
+        Hipervinculo interno
+    </a>
+
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus asperiores, beatae obcaecati omnis deserunt commodi voluptatem animi suscipit exercitationem velit modi saepe quisquam dicta magni dolorem nesciunt ad minima. Quod!</p>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia in officiis tempore at facilis dolorum voluptatibus eligendi expedita natus, ea sapiente voluptatem cupiditate magni quo accusamus et vitae omnis explicabo!</p>
     <div>Seccion1</div>
@@ -26,7 +73,49 @@
     <span>Seccion3</span>
     <span>Seccion4</span>
 </main>
+
 <footer>
+<div id="final">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis maxime eveniet aut vitae, natus exercitationem adipisci! Doloribus hic similique culpa eum explicabo itaque dolorem dignissimos? Consectetur, ullam sint. Velit, ratione!
+Pariatur, fugit, totam aliquid enim numquam blanditiis ipsam, eius inventore consequuntur magni illo est rem voluptas labore. Earum magni aut impedit nulla adipisci obcaecati itaque placeat, deserunt, rerum atque iste!
+Nisi officia cum distinctio obcaecati ipsum incidunt esse assumenda. Est dolores debitis, explicabo voluptates ullam corrupti sequi sapiente ipsa quam odio magni facilis tempora. Deserunt possimus aspernatur assumenda? Laboriosam, saepe!
+Esse blanditiis nisi non dolorum voluptatem ut repellat. Esse perspiciatis est cupiditate, non quod velit. Dolores sit ipsum numquam asperiores aut. Laudantium, dolorem. Ipsa cupiditate officia culpa aliquid quae. Inventore.
+Nesciunt recusandae atque eum ab minima. Deserunt explicabo laborum dolorem assumenda! Iste possimus et ducimus repellat natus architecto odio. Nam neque similique rem accusantium. Obcaecati nulla debitis tempore laudantium hic.</div>
+
+<marquee behavior="" direction="">  Esto es una marquee , por suerte esta depecrada</marquee>
+
+<table>
+    <tr><th>Encabezado 1</th> <th>Encabezado 2</th></tr>
+    <tr>
+        <td>Data uno</td><td>Data dos</td><td>Data 3</td>
+    </tr>
+    <tr><td>Data 4</td><td>Data 5</td></tr>
+    <tr><td>Data 6</td></tr>
+    <tr><td></td><td>Data 7</td></tr>
+</table>
+<form action="" method="post">
+    <input type="button" value="Hazme clic">
+    <input type="text" name="" id="" placeholder="Nombre">
+    <input type="date" name="" id="">
+    <input type="color" name="" id="">
+    <input type="checkbox" name="Femenino" id="generoFemenino"><label for="generoFemenino">Femenino</label>
+    <br>
+    <input type="email" name="" id="">
+    <input type="password" placeholder="Ingrese su contraseña">
+    <input type="radio" name="" id="">
+    <textarea name="" id= ""></textarea>
+</form>
+
+<button>Hazme clic</button>
+
+<select name="" id="">
+    <option value="$">Pesos Argentinos</option>
+    <option value="us$">Dolares Americanos</option>
+</select>
+<details>
+    <summary>ALERTA SPOILER NO ABRIR</summary>
+    En LOST estanba todos en un sueño
+</details>
+
 
 </footer>
 </body>
