@@ -1,0 +1,11 @@
+/* Cascade StyleSheet - Hoja de estilo en cascada */
+
+/* CSS: Queries y pseudoselectores, flexbox, grid, boostrap */
+
+/* numeral para id*/
+#parrafoImportante {color:blue}
+/* . para class */
+.elementoLista{color:green}
+
+#parrafoImportante{color:red;}
+
